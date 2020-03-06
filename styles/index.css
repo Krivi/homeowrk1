@@ -300,6 +300,23 @@ footer p{
     #why{
         margin-bottom: 10vw;
     }
+
+    .flex-container-4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container-3{
+        display:flex;
+        flex-direction: row;
+        margin-left: 15 vw;
+    }
     
+    .flex-container-3 img{
+        width: 100%;
+        height: 100%;
+        margin-top: -6vw;
+        justify-content: center;
+    }
     
 }
