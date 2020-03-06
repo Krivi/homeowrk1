@@ -293,7 +293,7 @@ footer p{
     #learn-more{
         width: 550px;
         height: 30px;
-        margin-left: 10px;
+        margin-left: 1px;
         position: absolute;
     }
 
@@ -303,7 +303,7 @@ footer p{
 
     .flex-container-4{
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
     }
 
     .flex-container-3{
@@ -317,6 +317,42 @@ footer p{
         height: 100%;
         margin-top: -6vw;
         justify-content: center;
+    }
+
+    #seamless-desc div{
+        text-align: left;
+        margin-left: 8vw;
+        font-size: 4vw;
+        font-family: Muli;
+        font-weight: bold;
+        margin-top: 5vw;
+        
+    }
+    
+    #seamless-desc p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1vw;
+        color: #B1AAAA;
+        margin: 1vw 0 1vw 8.5vw;
+    }
+    #learn-more-2{
+        width: 550px;
+        height: 30px;
+        margin-left: 130px;
+        position: absolute;
+    }
+
+    #alice{
+        position:absolute;
+        width:500px;
+        height: 500px;
+        left: -150px;
+        top: 160px;
+        z-index: -1;
+    }
+    #banner{
+        width:500px;
+        height:450px;
     }
     
 }
