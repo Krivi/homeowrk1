@@ -5,6 +5,8 @@
     font-size: 2vw;
 }
 
+
+
 #task{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -206,7 +208,11 @@ footer p{
     font-size: 2vw;
     font-family: Muli;
 }
-
+@media only screen and (max-width: 1200px){
+    #circles{
+        display: none;
+    }
+}
 @media only screen and (min-width: 1200px){
     #dash{
         line-height: 5;
@@ -215,6 +221,17 @@ footer p{
         font-size: 2vw;
         text-align: left;
         margin-left: 10vw;
+    }
+    header{
+        position: relative;
+    }
+
+    #circles{
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        height: 60vw;
+        width: 30vw;
     }
 
     #desc{
@@ -279,7 +296,7 @@ footer p{
         margin-left: 5vw;
         float: left;
     }
-    
+
     footer div{
         text-align: center;
         font-size: 2vw;
