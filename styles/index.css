@@ -243,17 +243,13 @@ footer p{
         margin-right: 40vw;
     }
     
-    .grid{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        margin-left: 5vw;
-        float: left;
-    }
+   
 
     #button2{
         margin-bottom: 10vw;
     }
+
+
 
     #button1{
         height: 40px;
@@ -276,6 +272,14 @@ footer p{
         display: center;
     }
 
+    .grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        margin-left: 5vw;
+        float: left;
+    }
+    
     footer div{
         text-align: center;
         font-size: 2vw;
