@@ -39,7 +39,7 @@ input[type=text]:focus{
     background-color: #EDCBCB;
 }
 
-#button1{
+.button1{
     height: 25px;
     border-radius:20px;
     width: 150px;
@@ -55,11 +55,12 @@ input[type=text]:focus{
     align-items: center;
 }
 
-#button1:hover{
+.button1:hover{
     background-color: #F95252;
+    cursor: pointer;
 }
 
-#button1:active{
+.button1:active{
     border: 2px solid black;
     color: black;
 }
@@ -168,6 +169,10 @@ img{
     margin: 1vw 20vw 1vw 20vw;
 }
 
+#learn-more-2{
+    margin-left: 20vw;
+}
+
 #seamless-desc div{
     text-align: center;
     font-size: 3vw;
@@ -268,7 +273,7 @@ footer p{
 
 
 
-    #button1{
+    .button1{
         height: 40px;
         border-radius:20px;
         width: 150px;
@@ -420,7 +425,7 @@ footer p{
     
     .flex-container-3 img{
         width: 100%;
-        height: 100%;
+        height: 130%;
         margin-top: -6vw;
         justify-content: center;
     }
